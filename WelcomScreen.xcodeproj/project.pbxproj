@@ -11,6 +11,7 @@
 		02ED73892678DFFA0026C70B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED73882678DFFA0026C70B /* ContentView.swift */; };
 		02ED738B2678DFFB0026C70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ED738A2678DFFB0026C70B /* Assets.xcassets */; };
 		02ED738E2678DFFB0026C70B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ED738D2678DFFB0026C70B /* Preview Assets.xcassets */; };
+		02ED73962678E0CF0026C70B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED73952678E0CF0026C70B /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02ED73882678DFFA0026C70B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02ED738A2678DFFB0026C70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02ED738D2678DFFB0026C70B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02ED73952678E0CF0026C70B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		02ED73852678DFFA0026C70B /* WelcomScreen */ = {
 			isa = PBXGroup;
 			children = (
+				02ED73942678E0BC0026C70B /* View */,
 				02ED73862678DFFA0026C70B /* WelcomScreenApp.swift */,
 				02ED73882678DFFA0026C70B /* ContentView.swift */,
 				02ED738A2678DFFB0026C70B /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				02ED738D2678DFFB0026C70B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02ED73942678E0BC0026C70B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02ED73952678E0CF0026C70B /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02ED73892678DFFA0026C70B /* ContentView.swift in Sources */,
+				02ED73962678E0CF0026C70B /* Home.swift in Sources */,
 				02ED73872678DFFA0026C70B /* WelcomScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
